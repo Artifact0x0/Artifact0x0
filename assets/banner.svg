@@ -78,7 +78,6 @@
 
     <text x="450" y="195" font-family="'Courier New', monospace" font-size="19" fill="#8892b0" text-anchor="middle">
       &gt;_ SOC Analyst in the Making — Syria // Rank #6 · LetsDefend
-      <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
     </text>
 
     <rect x="628" y="182" width="12" height="20" fill="#00f5d4">
