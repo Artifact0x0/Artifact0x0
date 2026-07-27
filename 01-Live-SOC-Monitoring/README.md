@@ -85,29 +85,43 @@ Documentation
 Containment Recommendation
 ```
 Following the same workflow across every investigation helped me improve consistency, analytical thinking, and confidence when making investigation decisions.
-⚙️ Skills Gained
-💻 Technical Skills
-Windows Event Log Analysis
-Network Log Investigation
-Email Security Analysis
-Process Investigation
-IOC Correlation
-Threat Intelligence Validation
-SIEM Navigation
-Security Event Classification
-🧠 Analytical Skills
-Identifying Malicious Activity
-True Positive vs False Positive Analysis
-Timeline Reconstruction
-Root Cause Analysis
-Evidence-Based Decision Making
-📝 Documentation Skills
-Investigation Reporting
-Incident Documentation
-Technical Writing
-Evidence Organization
-Timeline Documentation
-🎯 Key Takeaways
+
+---
+
+# ⚙️ Skills Gained
+
+## 💻 Technical Skills
+
+- Windows Event Log Analysis
+- Network Log Investigation
+- Email Security Analysis
+- Process Investigation
+- IOC Correlation
+- Threat Intelligence Validation
+- SIEM Navigation
+- Security Event Classification
+
+
+## 🧠 Analytical Skills
+
+- Identifying Malicious Activity
+- True Positive vs False Positive Analysis
+- Timeline Reconstruction
+- Root Cause Analysis
+- Evidence-Based Decision Making
+
+
+## 📝 Documentation Skills
+
+- Investigation Reporting
+- Incident Documentation
+- Technical Writing
+- Evidence Organization
+- Timeline Documentation
+
+---
+
+# 🎯 Key Takeaways
 
 This project transformed theoretical cybersecurity knowledge into practical investigation experience.
 
@@ -115,8 +129,16 @@ Instead of memorizing attack techniques, I learned how to analyze evidence, vali
 
 More importantly, this project helped me establish a repeatable investigation workflow that I will continue refining throughout future Blue Team projects.
 
-🚀 Next Project
+---
 
-The next stage of my journey focuses on Phishing Analysis, where I will investigate malicious emails, analyze email headers, inspect attachments, extract Indicators of Compromise (IOCs), and document complete phishing investigations.
+# 🚀 Next Project
+
+The next stage of my journey focuses on **Phishing Analysis**, where I will investigate malicious emails, analyze email headers, inspect attachments, extract Indicators of Compromise (IOCs), and document complete phishing investigations.
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/>
+</p>and document complete phishing investigations.
 
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/> </p> 
