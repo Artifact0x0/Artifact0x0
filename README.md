@@ -6,109 +6,160 @@
 
 # 🔐 Artifact0x0
 
-> **Security Research & Learning**  
-> SOC Alerts | Case Studies | Tools & Tips
+> **Building practical cybersecurity skills through hands-on investigations and continuous documentation.**
 
-<div style="margin: 20px 0;">
-<img src="https://img.shields.io/badge/LetsDefend-%236%20SYRIA-00f5d4?style=flat-square&labelColor=0a0714"/>
-<img src="https://img.shields.io/badge/Status-Learning-ff2e63?style=flat-square&labelColor=0a0714"/>
-<img src="https://img.shields.io/badge/Focus-Security%20Research-00f5d4?style=flat-square&labelColor=0a0714"/>
-</div>
+<p>
+
+<img src="https://img.shields.io/badge/Focus-Blue%20Team-00E5FF?style=flat-square&labelColor=0d1117"/>
+
+<img src="https://img.shields.io/badge/Current-SOC%20Analyst%20Training-58A6FF?style=flat-square&labelColor=0d1117"/>
+
+<img src="https://img.shields.io/badge/Platform-LetsDefend-1f6feb?style=flat-square&labelColor=0d1117"/>
+
+<img src="https://img.shields.io/badge/Status-Building%20in%20Public-00C853?style=flat-square&labelColor=0d1117"/>
+
+</p>
 
 </div>
 
 ---
 
-## What's Here
+# About
 
-This repository documents my cybersecurity learning journey with practical hands-on work:
+This repository documents my cybersecurity journey as I build practical Blue Team skills through hands-on projects, security investigations, and technical documentation.
 
-- 📍 **Alert Documentation** - Real alerts analyzed and classified
-- 📊 **Case Studies** - Incidents investigated and documented
-- 💡 **Tips & Tools** - Practical insights and utilities I've used
-- 📚 **Learning Progress** - What I'm working on and what I've learned
+Rather than focusing on certifications alone, this repository reflects my learning process, practical experience, and continuous improvement.
+
+As I progress, new investigations, case studies, notes, and tools will be added here.
 
 ---
 
-## 📂 What I'm Building
+# Repository Structure
 
-```
+```text
 Artifact0x0/
-├── alerts/              # Alert investigations & analysis
-├── case-studies/        # Incident case studies
-├── tools-tips/          # Useful tools & tips
-└── learning/            # Progress & resources
+│
+├── alerts/
+│   ├── alert-investigations
+│   └── triage-notes
+│
+├── case-studies/
+│
+├── tools-tips/
+│
+├── learning/
+│
+└── assets/
 ```
 
 ---
 
-## Current Work
+# What You'll Find
 
-### Alerts (LetsDefend)
-- Phishing attempts & credential harvesting
-- Brute force & authentication attacks  
-- Suspicious process execution
-- Network anomalies
+## 🛡 Alert Investigations
 
-### Case Studies
-- Real incident analysis
+Security alert analysis performed during practical SOC training.
+
+Topics include:
+
+- Alert triage
+- IOC analysis
+- Evidence collection
+- Investigation workflow
+- Security event classification
+
+---
+
+## 📖 Case Studies
+
+Documented investigations explaining:
+
+- Incident overview
+- Investigation process
 - Timeline reconstruction
-- IOC identification
+- MITRE ATT&CK mapping
 - Lessons learned
 
-### Tools & Tips
-- Quick reference guides
+---
+
+## 🧰 Tools & Notes
+
+A growing collection of:
+
 - Useful security tools
-- Common patterns to watch for
-- Best practices
+- Cheat sheets
+- Investigation notes
+- Detection references
+- Personal documentation
 
 ---
 
-## Stats
+## 📚 Learning Journey
 
-| Metric | Count |
-|--------|-------|
-| Alerts Analyzed | 50+ |
-| Case Studies | 5+ |
-| Tools/Scripts | 3+ |
-| Learning Hours | 150+ |
+Resources, project notes, and technical write-ups that document my progress while developing Blue Team skills.
 
 ---
 
-## Tech Stack
+# Current Focus
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=python,bash,linux&theme=dark&perline=3"/>
-</div>
-
-**Platforms:** LetsDefend, Linux, SIEM concepts
-
----
-
-## Get Started
-
-1. **Check out alerts** - See how I classify and investigate
-2. **Read case studies** - Understand incident analysis
-3. **Use the tools** - Copy scripts for your own work
+- SOC Operations
+- Alert Triage
+- Log Analysis
+- Incident Investigation
+- Threat Intelligence
+- MITRE ATT&CK
+- Detection Engineering Fundamentals
 
 ---
 
-## Connect
-
-| Platform | Link |
-|----------|------|
-| **Twitter** | [@Artifact0x0](https://x.com/Artifact0x0) |
-| **Medium** | [@Artifact0x0](https://medium.com/@zeinalali) |
-| **Email** | zeinalali961@gmal.com |
-
----
+# Technologies
 
 <div align="center">
 
-**Building skills in security, one alert at a time.**
-
-<img src="https://komarev.com/ghpvc/?username=Artifact0x0&color=00f5d4&style=flat-square&label=Profile%20Views"/>
+<img src="https://skillicons.dev/icons?i=python,bash,linux,git,vscode&theme=dark"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:1a1030,50:140a26,100:0a0714&section=footer" width="100%"/>
+### Platforms
+
+- LetsDefend
+- Windows Event Logs
+- Linux
+- SIEM Fundamentals
+- MITRE ATT&CK
+
+---
+
+# Road Ahead
+
+This repository will continue to grow with:
+
+- SOC investigations
+- Case studies
+- Detection engineering notes
+- Threat hunting exercises
+- Security tools
+- Blue Team projects
+- Home Lab documentation
+
+---
+
+# Connect
+
+| Platform | Profile |
+|-----------|---------|
+| X | https://x.com/Artifact0x0 |
+| Medium | https://medium.com/@zeinalali |
+| Email | zeinalali961@gmail.com |
+
+---
+
+<div align="center">
+
+### Building. Learning. Documenting.
+
+<img src="https://komarev.com/ghpvc/?username=Artifact0x0&style=flat-square&color=00E5FF&label=Profile+Views"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:0d1117,100:00E5FF&section=footer" width="100%"/>
