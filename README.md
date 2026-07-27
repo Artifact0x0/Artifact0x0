@@ -58,25 +58,10 @@ Every alert I close in the SOC queue gets written up as it happens — IOCs, MIT
 
 <div align="center">
 
-## 📡 Signal
-
-<img src="https://github-readme-stats.vercel.app/api?username=Artifact0x0&show_icons=true&hide_border=true&hide_title=true&bg_color=0a0714&title_color=00f5d4&icon_color=ff2e63&text_color=8892b0&ring_color=00f5d4&count_private=true" height="170"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Artifact0x0&layout=compact&hide_border=true&hide_title=true&bg_color=0a0714&title_color=00f5d4&text_color=8892b0&langs_count=6" height="170"/>
-
-<br/><br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=Artifact0x0&theme=dark_dimmed&no-frame=true&no-bg=true&margin-w=12&row=1&column=6"/>
-
-</div>
-
-<br/>
-
-<div align="center">
 
 ## 🔗 Reach Me
 
 <a href="https://x.com/Artifact0x0"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=00f5d4&labelColor=0a0714"/></a>
-<a href="https://linkedin.com/in/yourprofile"><img src="https://img.shields.io/badge/LinkedIn-0a0714?style=for-the-badge&logo=linkedin&logoColor=00f5d4&labelColor=0a0714"/></a>
 <a href="https://medium.com/@yourprofile"><img src="https://img.shields.io/badge/Medium-0a0714?style=for-the-badge&logo=medium&logoColor=00f5d4&labelColor=0a0714"/></a>
 <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-0a0714?style=for-the-badge&logo=gmail&logoColor=00f5d4&labelColor=0a0714"/></a>
 
