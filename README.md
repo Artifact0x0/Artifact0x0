@@ -17,35 +17,25 @@
 
 </div>
 
----
-
-## What's Here
-
-This repository documents my first SOC monitoring project through practical alert analysis and investigation documentation.
-
-The focus of this project is understanding the SOC analyst workflow by reviewing alerts, analyzing evidence, documenting findings, and learning from each investigation.
-
-- 📍 **Alert Analysis** - Reviewing and documenting security alerts
-- 📊 **Case Studies** - Detailed investigation write-ups
-- 📝 **Lessons Learned** - Observations and improvements throughout the project
-- 📸 **Evidence Collection** - Screenshots and investigation references
-
----
-
-## 📂 Project Structure
-
-01-Live-SOC-Monitoring/ </br>
-│</br>
-├── Cases Studies/ </br>
-│ └── case-study-11.md </br>
-│ </br>
-├── README.md </br>
-├── lessons-learned.md </br>
-├── screenshots/ </br>
-└── triage-log.md </br>
-
-
----
+<table>
+  <tr>
+    <td width="60%">
+      <h2>🎯 About Me</h2>
+      <p>
+        I'm <b>Zein Al-Ali</b>, documenting my journey from <b>zero to SOC Analyst</b> in 24 weeks — publicly.
+      </p>
+      <ul>
+        <li>🔥 Currently completing <b>Project 1: Live SOC Monitoring</b></li>
+        <li>📊 Triaging real alerts on <b>LetsDefend</b></li>
+        <li>📝 Publishing <b>daily case studies</b> with IOCs & timelines</li>
+        <li>🛡️ Learning: <b>MITRE ATT&CK</b> | <b>SIEM</b> | <b>Log Analysis</b></li>
+      </ul>
+    </td>
+    <td width="40%" align="center">
+      <img src="https://media.giphy.com/media/077i6AULCXc0FKTj9s/giphy.gif" width="280" alt="Cybersecurity Animation" />
+    </td>
+  </tr>
+</table>
 
 ## Current Work
 
