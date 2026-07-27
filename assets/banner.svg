@@ -1,1 +1,96 @@
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08060f"/>
+      <stop offset="55%" stop-color="#140a26"/>
+      <stop offset="100%" stop-color="#050508"/>
+    </linearGradient>
+    <linearGradient id="edgeGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5d4" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f5d4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#00f5d4" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect x="0" y="0" width="900" height="300" rx="14"/>
+    </clipPath>
+  </defs>
 
+  <g clip-path="url(#frame)">
+    <rect width="900" height="300" fill="url(#bgGrad)"/>
+    <line x1="0" y1="0" x2="0" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="45" y1="0" x2="45" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="90" y1="0" x2="90" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="135" y1="0" x2="135" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="180" y1="0" x2="180" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="225" y1="0" x2="225" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="270" y1="0" x2="270" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="315" y1="0" x2="315" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="360" y1="0" x2="360" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="405" y1="0" x2="405" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="450" y1="0" x2="450" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="495" y1="0" x2="495" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="540" y1="0" x2="540" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="585" y1="0" x2="585" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="630" y1="0" x2="630" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="675" y1="0" x2="675" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="720" y1="0" x2="720" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="765" y1="0" x2="765" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="810" y1="0" x2="810" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="855" y1="0" x2="855" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="900" y1="0" x2="900" y2="300" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="0" x2="900" y2="0" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="45" x2="900" y2="45" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="90" x2="900" y2="90" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="135" x2="900" y2="135" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="180" x2="900" y2="180" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="225" x2="900" y2="225" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+    <line x1="0" y1="270" x2="900" y2="270" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+
+    <rect x="0" y="0" width="900" height="3" fill="url(#edgeGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+    </rect>
+
+    <path d="M 30 30 L 30 60 M 30 30 L 60 30" stroke="#00f5d4" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 870 30 L 870 60 M 870 30 L 840 30" stroke="#00f5d4" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 30 270 L 30 240 M 30 270 L 60 270" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.7"/>
+    <path d="M 870 270 L 870 240 M 870 270 L 840 270" stroke="#ff2e63" stroke-width="2" fill="none" opacity="0.7"/>
+
+    <g filter="url(#softGlow)">
+      <text x="452" y="150" font-family="'Courier New', monospace" font-weight="800" font-size="66" fill="#ff2e63" text-anchor="middle" opacity="0.55">
+        ZEIN AL-ALI
+        <animate attributeName="x" values="452;449;454;452" dur="2.4s" repeatCount="indefinite"/>
+      </text>
+      <text x="448" y="150" font-family="'Courier New', monospace" font-weight="800" font-size="66" fill="#00f5d4" text-anchor="middle" opacity="0.55">
+        ZEIN AL-ALI
+        <animate attributeName="x" values="448;451;446;448" dur="2.7s" repeatCount="indefinite"/>
+      </text>
+      <text x="450" y="150" font-family="'Courier New', monospace" font-weight="800" font-size="66" fill="#f5f5f7" text-anchor="middle">
+        ZEIN AL-ALI
+      </text>
+    </g>
+
+    <text x="450" y="195" font-family="'Courier New', monospace" font-size="19" fill="#8892b0" text-anchor="middle">
+      &gt;_ SOC Analyst in the Making — Syria // Rank #6 · LetsDefend
+      <animate attributeName="opacity" values="1;0.5;1" dur="4s" repeatCount="indefinite"/>
+    </text>
+
+    <rect x="628" y="182" width="12" height="20" fill="#00f5d4">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="0" y="0" width="900" height="10" fill="#00f5d4" opacity="0.06">
+      <animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite"/>
+    </rect>
+
+    <rect x="0" y="297" width="900" height="3" fill="url(#edgeGlow)">
+      <animate attributeName="opacity" values="1;0.4;1" dur="3s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
