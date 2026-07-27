@@ -98,8 +98,8 @@ Artifact0x0/
 | Platform | Link |
 |----------|------|
 | **Twitter** | [@Artifact0x0](https://x.com/Artifact0x0) |
-| **Medium** | [@Artifact0x0](https://medium.com/@Artifact0x0) |
-| **Email** | artifact0x0@example.com |
+| **Medium** | [@Artifact0x0](https://medium.com/@zeinalali) |
+| **Email** | zeinalali961@gmal.com |
 
 ---
 
