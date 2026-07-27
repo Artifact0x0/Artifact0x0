@@ -1,94 +1,144 @@
-# Live SOC Alert Monitoring
+<!-- HERO -->
 
-> Building foundational SOC Tier 1 skills through hands-on alert triage, investigation, and incident documentation using the LetsDefend platform.
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0D1117,100:00E5FF&text=Live%20SOC%20Alert%20Monitoring&fontColor=ffffff&fontSize=45&fontAlignY=40&desc=Blue%20Team%20Portfolio%20Project&descAlignY=60&animation=fadeIn"/>
+</p>
+
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=1000&center=true&vCenter=true&width=800&color=00E5FF&lines=SOC+Tier+1+Alert+Triage;Log+Analysis;Incident+Investigation;IOC+Validation;Blue+Team+Operations" />
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Platform-LetsDefend-1f6feb?style=for-the-badge&logo=target&logoColor=white"/>
+
+<img src="https://img.shields.io/badge/Category-Blue%20Team-0A66C2?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Focus-SOC%20Operations-00C853?style=for-the-badge"/>
+
+<img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/>
+
+</p>
 
 ---
 
-## Overview
+<p align="center">
+<img width="420" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
+</p>
+
+# 🛡️ Overview
 
 This repository documents my first Blue Team project, where I practiced the day-to-day responsibilities of a Security Operations Center (SOC) Analyst.
 
-Throughout this project, I analyzed security alerts, investigated suspicious activity, validated indicators of compromise (IOCs), and documented investigations following a structured incident response workflow.
+Throughout this project, I analyzed security alerts, investigated suspicious activity, validated Indicators of Compromise (IOCs), and documented investigations using a structured incident response workflow.
 
-The primary goal was not simply to complete alerts, but to develop a consistent investigation methodology and improve analytical decision-making.
+Rather than simply closing alerts, I focused on building a repeatable investigation methodology and improving analytical decision-making through hands-on practice.
 
 ---
 
-## What I Learned
+# 📚 What I Learned
 
 During this project I developed practical experience with:
 
-- Security alert triage
-- Log analysis
-- Incident investigation
-- IOC validation
-- Threat intelligence correlation
-- Evidence collection
-- Security documentation
-- Investigation reporting
-- Basic MITRE ATT&CK mapping
-- SOC analyst workflow
+- 🔹 Security Alert Triage
+- 🔹 Log Analysis
+- 🔹 Incident Investigation
+- 🔹 IOC Validation
+- 🔹 Threat Intelligence Correlation
+- 🔹 Evidence Collection
+- 🔹 Security Documentation
+- 🔹 Investigation Reporting
+- 🔹 MITRE ATT&CK Mapping
+- 🔹 SOC Analyst Workflow
 
 ---
 
-## Investigation Workflow
+# 🔍 Investigation Workflow
 
-For every alert I followed a structured process:
+For every investigation I followed the same structured methodology:
 
-1. Review the alert
-2. Build an initial hypothesis
-3. Investigate available logs
-4. Correlate related events
-5. Validate IOCs
-6. Determine alert classification
-7. Document findings
-8. Recommend containment actions
+```text
+Alert Review
+      │
+      ▼
+Initial Hypothesis
+      │
+      ▼
+Evidence Collection
+      │
+      ▼
+Log Correlation
+      │
+      ▼
+IOC Validation
+      │
+      ▼
+Classification
+      │
+      ▼
+Documentation
+      │
+      ▼
+Containment Recommendation
+```
 
-Following the same workflow across every investigation helped me improve consistency and analytical thinking.
-
----
-
-## Skills Gained
-
-### Technical
-
-- Windows Event Log analysis
-- Network log investigation
-- Email security analysis
-- Process investigation
-- Threat intelligence lookups
-- IOC correlation
-- SIEM navigation
-- Security event classification
-
-### Analytical
-
-- Identifying malicious behavior
-- Differentiating true positives from false positives
-- Timeline reconstruction
-- Root cause analysis
-- Evidence-based decision making
-
-### Documentation
-
-- Writing investigation reports
-- Recording findings clearly
-- Organizing technical evidence
-- Documenting incident timelines
+Following the same workflow across every investigation helped me improve consistency, analytical thinking, and confidence when making investigation decisions.
 
 ---
 
+# ⚙️ Skills Gained
 
-## Key Takeaways
+## 💻 Technical Skills
 
-This project helped transform theoretical cybersecurity concepts into practical investigation skills.
-
-Rather than memorizing attack techniques, I learned how to analyze evidence, validate assumptions, and make investigation decisions based on available data.
-
-More importantly, it established the investigation workflow that I will continue using throughout future Blue Team projects.
+- Windows Event Log Analysis
+- Network Log Investigation
+- Email Security Analysis
+- Process Investigation
+- IOC Correlation
+- Threat Intelligence Validation
+- SIEM Navigation
+- Security Event Classification
 
 ---
 
-## Next Step
+## 🧠 Analytical Skills
 
-The next project focuses on phishing analysis, where I will investigate malicious emails, analyze email headers, inspect attachments, extract IOCs, and document complete phishing investigations.
+- Identifying Malicious Activity
+- True Positive vs False Positive Analysis
+- Timeline Reconstruction
+- Root Cause Analysis
+- Evidence-Based Decision Making
+
+---
+
+## 📝 Documentation Skills
+
+- Investigation Reporting
+- Incident Documentation
+- Technical Writing
+- Evidence Organization
+- Timeline Documentation
+
+---
+
+# 🎯 Key Takeaways
+
+This project transformed theoretical cybersecurity knowledge into practical investigation experience.
+
+Instead of memorizing attack techniques, I learned how to analyze evidence, validate assumptions, correlate events, and reach investigation conclusions based on available data.
+
+More importantly, this project helped me establish a repeatable investigation workflow that I will continue refining throughout future Blue Team projects.
+
+---
+
+# 🚀 Next Project
+
+The next stage of my journey focuses on **Phishing Analysis**, where I will investigate malicious emails, analyze email headers, inspect attachments, extract Indicators of Compromise (IOCs), and document complete phishing investigations.
+
+---
+
+<p align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/>
+
+</p>
