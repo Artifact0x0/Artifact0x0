@@ -34,6 +34,11 @@ The focus of this project is understanding the SOC analyst workflow by reviewing
 
 ## 📂 Project Structure
 
+
+---
+
+## 📂 Project Structure
+
 01-Live-SOC-Monitoring/ </br>
 │ </br>
 ├── Cases Studiy/ </br>
