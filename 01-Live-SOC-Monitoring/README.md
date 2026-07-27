@@ -10,10 +10,11 @@
     <img src="https://img.shields.io/badge/Platform-LetsDefend-1f6feb?style=for-the-badge&logo=target&logoColor=white" /> <img src="https://img.shields.io/badge/Category-Blue%20Team-0A66C2?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Focus-SOC%20Operations-00C853?style=for-the-badge" />
     <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
-</p> ---
+</p> 
 <p align="center">
     <img width="420" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif">
-</p> # 🛡️ Overview This repository documents my first Blue Team project, where I practiced the day-to-day responsibilities of a Security Operations Center (SOC) Analyst. Throughout this project, I analyzed security alerts, investigated suspicious activity,
+</p>
+# 🛡️ Overview This repository documents my first Blue Team project, where I practiced the day-to-day responsibilities of a Security Operations Center (SOC) Analyst. Throughout this project, I analyzed security alerts, investigated suspicious activity,
 validated Indicators of Compromise (IOCs), and documented investigations using a structured incident response workflow. Rather than simply closing alerts, I focused on building a repeatable investigation methodology and improving analytical decision-making
 through hands-on practice. --- # 📚 What I Learned During this project I developed practical experience with: - 🔹 Security Alert Triage - 🔹 Log Analysis - 🔹 Incident Investigation - 🔹 IOC Validation - 🔹 Threat Intelligence Correlation - 🔹 Evidence
 Collection - 🔹 Security Documentation - 🔹 Investigation Reporting - 🔹 MITRE ATT&CK Mapping - 🔹 SOC Analyst Workflow --- # 🔍 Investigation Workflow For every investigation I followed the same structured methodology: text Alert Review │ ▼ Initial Hypothesis
