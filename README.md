@@ -6,160 +6,136 @@
 
 # 🔐 Artifact0x0
 
-> **Building practical cybersecurity skills through hands-on investigations and continuous documentation.**
+> **SOC Learning & Investigation Documentation**  
+> Alert Triage | Case Studies | Security Analysis
 
-<p>
-
-<img src="https://img.shields.io/badge/Focus-Blue%20Team-00E5FF?style=flat-square&labelColor=0d1117"/>
-
-<img src="https://img.shields.io/badge/Current-SOC%20Analyst%20Training-58A6FF?style=flat-square&labelColor=0d1117"/>
-
-<img src="https://img.shields.io/badge/Platform-LetsDefend-1f6feb?style=flat-square&labelColor=0d1117"/>
-
-<img src="https://img.shields.io/badge/Status-Building%20in%20Public-00C853?style=flat-square&labelColor=0d1117"/>
-
-</p>
+<div style="margin: 20px 0;">
+<img src="https://img.shields.io/badge/Project-01%20Live%20SOC%20Monitoring-00f5d4?style=flat-square&labelColor=0a0714"/>
+<img src="https://img.shields.io/badge/Status-In%20Progress-ff2e63?style=flat-square&labelColor=0a0714"/>
+<img src="https://img.shields.io/badge/Focus-SOC%20Investigation-00f5d4?style=flat-square&labelColor=0a0714"/>
+</div>
 
 </div>
 
 ---
 
-# About
+## What's Here
 
-This repository documents my cybersecurity journey as I build practical Blue Team skills through hands-on projects, security investigations, and technical documentation.
+This repository documents my first SOC monitoring project through practical alert analysis and investigation documentation.
 
-Rather than focusing on certifications alone, this repository reflects my learning process, practical experience, and continuous improvement.
+The focus of this project is understanding the SOC analyst workflow by reviewing alerts, analyzing evidence, documenting findings, and learning from each investigation.
 
-As I progress, new investigations, case studies, notes, and tools will be added here.
-
----
-
-# Repository Structure
-
-```text
-Artifact0x0/
-│
-├── alerts/
-│   ├── alert-investigations
-│   └── triage-notes
-│
-├── case-studies/
-│
-├── tools-tips/
-│
-├── learning/
-│
-└── assets/
-```
+- 📍 **Alert Analysis** - Reviewing and documenting security alerts
+- 📊 **Case Studies** - Detailed investigation write-ups
+- 📝 **Lessons Learned** - Observations and improvements throughout the project
+- 📸 **Evidence Collection** - Screenshots and investigation references
 
 ---
 
-# What You'll Find
+## 📂 Project Structure
 
-## 🛡 Alert Investigations
+01-Live-SOC-Monitoring/
+│
+├── Cases Studies/
+│ └── case-study-11.md
+│
+├── README.md
+├── lessons-learned.md
+├── screenshots/
+└── triage-log.md
 
-Security alert analysis performed during practical SOC training.
-
-Topics include:
-
-- Alert triage
-- IOC analysis
-- Evidence collection
-- Investigation workflow
-- Security event classification
 
 ---
 
-## 📖 Case Studies
+## Current Work
 
-Documented investigations explaining:
+### Alert Triage
 
-- Incident overview
+Documenting investigations across different security scenarios:
+
+- Suspicious activity analysis
+- Authentication-related alerts
+- Phishing investigations
+- Malware-related activity
+- Network anomalies
+
+### Case Studies
+
+Each case study focuses on:
+
+- Alert overview
 - Investigation process
-- Timeline reconstruction
-- MITRE ATT&CK mapping
+- Evidence analysis
+- Indicators of Compromise (IOCs)
+- Findings
 - Lessons learned
 
----
+### Documentation
 
-## 🧰 Tools & Notes
+Maintaining:
 
-A growing collection of:
-
-- Useful security tools
-- Cheat sheets
-- Investigation notes
-- Detection references
-- Personal documentation
+- Alert investigation notes
+- Triage records
+- Investigation screenshots
+- Personal observations and improvements
 
 ---
 
-## 📚 Learning Journey
+## Project Files
 
-Resources, project notes, and technical write-ups that document my progress while developing Blue Team skills.
-
----
-
-# Current Focus
-
-- SOC Operations
-- Alert Triage
-- Log Analysis
-- Incident Investigation
-- Threat Intelligence
-- MITRE ATT&CK
-- Detection Engineering Fundamentals
+| File | Description |
+|------|-------------|
+| `triage-log.md` | Record of analyzed alerts and investigation notes |
+| `lessons-learned.md` | Key lessons and observations from the project |
+| `Cases Studies/` | Detailed investigation reports |
+| `screenshots/` | Supporting investigation evidence |
 
 ---
 
-# Technologies
+## Skills Developed
+
+- Alert triage
+- Security event analysis
+- Investigation methodology
+- IOC identification
+- Evidence documentation
+- Incident analysis
+- Basic MITRE ATT&CK understanding
+
+---
+
+## Tech Stack
 
 <div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,bash,linux,git,vscode&theme=dark"/>
-
+<img src="https://skillicons.dev/icons?i=python,bash,linux&theme=dark&perline=3"/>
 </div>
 
-### Platforms
-
-- LetsDefend
-- Windows Event Logs
-- Linux
-- SIEM Fundamentals
-- MITRE ATT&CK
+**Platforms:** LetsDefend | SIEM Concepts | Security Investigation Workflows
 
 ---
 
-# Road Ahead
+## Next Steps
 
-This repository will continue to grow with:
-
-- SOC investigations
-- Case studies
-- Detection engineering notes
-- Threat hunting exercises
-- Security tools
-- Blue Team projects
-- Home Lab documentation
+This repository will continue to grow with additional investigations, case studies, and documentation as I progress through my SOC analyst journey.
 
 ---
 
-# Connect
+## Connect
 
-| Platform | Profile |
-|-----------|---------|
-| X | https://x.com/Artifact0x0 |
-| Medium | https://medium.com/@zeinalali |
-| Email | zeinalali961@gmail.com |
+| Platform | Link |
+|----------|------|
+| **Twitter** | [@Artifact0x0](https://x.com/Artifact0x0) |
+| **Medium** | [@Artifact0x0](https://medium.com/@zeinalali) |
+| **Email** | zeinalali961@gmail.com |
 
 ---
 
 <div align="center">
 
-### Building. Learning. Documenting.
+**Building SOC skills through investigation, documentation, and continuous learning.**
 
-<img src="https://komarev.com/ghpvc/?username=Artifact0x0&style=flat-square&color=00E5FF&label=Profile+Views"/>
+<img src="https://komarev.com/ghpvc/?username=Artifact0x0&color=00f5d4&style=flat-square&label=Profile%20Views"/>
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:0d1117,100:00E5FF&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:1a1030,50:140a26,100:0a0714&section=footer" width="100%"/>
