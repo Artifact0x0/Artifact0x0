@@ -140,5 +140,3 @@ The next stage of my journey focuses on **Phishing Analysis**, where I will inve
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/>
 </p>and document complete phishing investigations.
-
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/> </p> 
