@@ -34,15 +34,15 @@ The focus of this project is understanding the SOC analyst workflow by reviewing
 
 ## 📂 Project Structure
 
-01-Live-SOC-Monitoring/
-│
-├── Cases Studies/
-│ └── case-study-11.md
-│
-├── README.md
-├── lessons-learned.md
-├── screenshots/
-└── triage-log.md
+01-Live-SOC-Monitoring/ </br>
+│</br>
+├── Cases Studies/ </br>
+│ └── case-study-11.md </br>
+│ </br>
+├── README.md </br>
+├── lessons-learned.md </br>
+├── screenshots/ </br>
+└── triage-log.md </br>
 
 
 ---
