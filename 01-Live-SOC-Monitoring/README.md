@@ -1,25 +1,141 @@
-<p align="center"> <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=260&color=0:0D1117,100:00E5FF&text=Live%20SOC%20Alert%20Monitoring&fontColor=ffffff&fontSize=45&fontAlignY=40&desc=Blue%20Team%20Portfolio%20Project&descAlignY=60&animation=fadeIn"/> </p> <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=22&duration=2500&pause=1000&center=true&vCenter=true&width=800&color=00E5FF&lines=SOC+Tier+1+Alert+Triage;Log+Analysis;Incident+Investigation;IOC+Validation;Blue+Team+Operations" /> </p> <p align="center"> <img src="https://img.shields.io/badge/Platform-LetsDefend-1f6feb?style=for-the-badge&logo=target&logoColor=white"/> <img src="https://img.shields.io/badge/Category-Blue%20Team-0A66C2?style=for-the-badge"/> <img src="https://img.shields.io/badge/Focus-SOC%20Operations-00C853?style=for-the-badge"/> <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge"/> </p> --- <p align="center"> <img width="420" src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif"> </p> # 🛡️ Overview This repository documents my first Blue Team project, where I practiced the day-to-day responsibilities of a Security Operations Center (SOC) Analyst. Throughout this project, I analyzed security alerts, investigated suspicious activity, validated Indicators of Compromise (IOCs), and documented investigations using a structured incident response workflow. Rather than simply closing alerts, I focused on building a repeatable investigation methodology and improving analytical decision-making through hands-on practice. --- # 📚 What I Learned During this project I developed practical experience with: - 🔹 Security Alert Triage - 🔹 Log Analysis - 🔹 Incident Investigation - 🔹 IOC Validation - 🔹 Threat Intelligence Correlation - 🔹 Evidence Collection - 🔹 Security Documentation - 🔹 Investigation Reporting - 🔹 MITRE ATT&CK Mapping - 🔹 SOC Analyst Workflow --- # 🔍 Investigation Workflow For every investigation I followed the same structured methodology:
-text
-Alert Review
-      │
-      ▼
-Initial Hypothesis
-      │
-      ▼
-Evidence Collection
-      │
-      ▼
-Log Correlation
-      │
-      ▼
-IOC Validation
-      │
-      ▼
-Classification
-      │
-      ▼
-Documentation
-      │
-      ▼
-Containment Recommendation
-Following the same workflow across every investigation helped me improve consistency, analytical thinking, and confidence when making investigation decisions. --- # ⚙️ Skills Gained ## 💻 Technical Skills - Windows Event Log Analysis - Network Log Investigation - Email Security Analysis - Process Investigation - IOC Correlation - Threat Intelligence Validation - SIEM Navigation - Security Event Classification --- ## 🧠 Analytical Skills - Identifying Malicious Activity - True Positive vs False Positive Analysis - Timeline Reconstruction - Root Cause Analysis - Evidence-Based Decision Making --- ## 📝 Documentation Skills - Investigation Reporting - Incident Documentation - Technical Writing - Evidence Organization - Timeline Documentation --- # 🎯 Key Takeaways This project transformed theoretical cybersecurity knowledge into practical investigation experience. Instead of memorizing attack techniques, I learned how to analyze evidence, validate assumptions, correlate events, and reach investigation conclusions based on available data. More importantly, this project helped me establish a repeatable investigation workflow that I will continue refining throughout future Blue Team projects. --- # 🚀 Next Project The next stage of my journey focuses on **Phishing Analysis**, where I will investigate malicious emails, analyze email headers, inspect attachments, extract Indicators of Compromise (IOCs), and document complete phishing investigations. --- <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/> </p>
+<div align="center">
+
+<img src="./assets/banner.svg" width="100%"/>
+
+<br/>
+
+# 🔐 Artifact0x0
+
+> **SOC Learning & Investigation Documentation**  
+> Alert Triage | Case Studies | Security Analysis
+
+<div style="margin: 20px 0;">
+<img src="https://img.shields.io/badge/Project-01%20Live%20SOC%20Monitoring-00f5d4?style=flat-square&labelColor=0a0714"/>
+<img src="https://img.shields.io/badge/Status-In%20Progress-ff2e63?style=flat-square&labelColor=0a0714"/>
+<img src="https://img.shields.io/badge/Focus-SOC%20Investigation-00f5d4?style=flat-square&labelColor=0a0714"/>
+</div>
+
+</div>
+
+---
+
+## What's Here
+
+This repository documents my first SOC monitoring project through practical alert analysis and investigation documentation.
+
+The focus of this project is understanding the SOC analyst workflow by reviewing alerts, analyzing evidence, documenting findings, and learning from each investigation.
+
+- 📍 **Alert Analysis** - Reviewing and documenting security alerts
+- 📊 **Case Studies** - Detailed investigation write-ups
+- 📝 **Lessons Learned** - Observations and improvements throughout the project
+- 📸 **Evidence Collection** - Screenshots and investigation references
+
+---
+
+## 📂 Project Structure
+
+01-Live-SOC-Monitoring/ </br>
+│ </br>
+├── Cases Studiy/ </br>
+│ └── case-study-11.md </br>
+│ </br>
+├── README.md </br>
+├── lessons-learned.md </br>
+├── screenshots/ </br>
+└── triage-log.md </br>
+
+
+---
+
+## Current Work
+
+### Alert Triage
+
+Documenting investigations across different security scenarios:
+
+- Suspicious activity analysis
+- Authentication-related alerts
+- Phishing investigations
+- Malware-related activity
+- Network anomalies
+
+### Case Studies
+
+Each case study focuses on:
+
+- Alert overview
+- Investigation process
+- Evidence analysis
+- Indicators of Compromise (IOCs)
+- Findings
+- Lessons learned
+
+### Documentation
+
+Maintaining:
+
+- Alert investigation notes
+- Triage records
+- Investigation screenshots
+- Personal observations and improvements
+
+---
+
+## Project Files
+
+| File | Description |
+|------|-------------|
+| `triage-log.md` | Record of analyzed alerts and investigation notes |
+| `lessons-learned.md` | Key lessons and observations from the project |
+| `Cases Studies/` | Detailed investigation reports |
+| `screenshots/` | Supporting investigation evidence |
+
+---
+
+## Skills Developed
+
+- Alert triage
+- Security event analysis
+- Investigation methodology
+- IOC identification
+- Evidence documentation
+- Incident analysis
+- Basic MITRE ATT&CK understanding
+
+---
+
+## Tech Stack
+
+<div align="center">
+<img src="https://skillicons.dev/icons?i=python,bash,linux&theme=dark&perline=3"/>
+</div>
+
+**Platforms:** LetsDefend | SIEM Concepts | Security Investigation Workflows
+
+---
+
+## Next Steps
+
+This repository will continue to grow with additional investigations, case studies, and documentation as I progress through my SOC analyst journey.
+
+---
+
+## Connect
+
+| Platform | Link |
+|----------|------|
+| **Twitter** | [@Artifact0x0](https://x.com/Artifact0x0) |
+| **Medium** | [@Artifact0x0](https://medium.com/@zeinalali) |
+| **Email** | zeinalali961@gmail.com |
+
+---
+
+<div align="center">
+
+**Building SOC skills through investigation, documentation, and continuous learning.**
+
+<img src="https://komarev.com/ghpvc/?username=Artifact0x0&color=00f5d4&style=flat-square&label=Profile%20Views"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:1a1030,50:140a26,100:0a0714&section=footer" width="100%"/>
