@@ -83,6 +83,7 @@ Documentation
       │
       ▼
 Containment Recommendation
+```
 Following the same workflow across every investigation helped me improve consistency, analytical thinking, and confidence when making investigation decisions.
 ⚙️ Skills Gained
 💻 Technical Skills
@@ -118,4 +119,4 @@ More importantly, this project helped me establish a repeatable investigation wo
 
 The next stage of my journey focuses on Phishing Analysis, where I will investigate malicious emails, analyze email headers, inspect attachments, extract Indicators of Compromise (IOCs), and document complete phishing investigations.
 
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/> </p> ```
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&section=footer&height=120&color=0:00E5FF,100:0D1117"/> </p> 
