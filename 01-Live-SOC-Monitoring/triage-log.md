@@ -1,21 +1,21 @@
-## Alert #1
-**Detection Time:** 2024-02-13T02:04
-**Alert Title:** VPN Connection Detected from Unauthorized Country
-**Alert Type:** Unauthorized Login
-**Severity:** Low
-**Source IP:** 113.161.158[.]12
-**Target:** 33.33.33.33
+## Alert #1 \
+**Detection Time:** 2024-02-13T02:04 \
+**Alert Title:** VPN Connection Detected from Unauthorized Country \
+**Alert Type:** Unauthorized Login \
+**Severity:** Low \
+**Source IP:** 113.161.158[.]12 \
+**Target:** 33.33.33.33 \
 
-**Hypothesis:** An external actor attempted to connect to the VPN gateway from a geolocation outside the organization's authorized access list.
+**Hypothesis:** An external actor attempted to connect to the VPN gateway from a geolocation outside the organization's authorized access list. \
 
-**Evidence:**
-* 113.161.158[.]12 IP address flagged as malicious.
-* Failed connection attempts to server 33.33.33.33 due to OTP authentication failure after three attempts.
-* Multiple connection attempts were detected by the firewall but did not succeed.
+**Evidence:** \
+* 113.161.158[.]12 IP address flagged as malicious. \
+* Failed connection attempts to server 33.33.33.33 due to OTP authentication failure after three attempts. \
+* Multiple connection attempts were detected by the firewall but did not succeed. \
 
-**Classification:** True Positive - Malicious
-**Action Taken:** Blocked source IP 113.161.158[.]12 and closed the alert as a True Positive.
-**Time to Triage:** 2 minutes
+**Classification:** True Positive - Malicious \
+**Action Taken:** Blocked source IP 113.161.158[.]12 and closed the alert as a True Positive. \
+**Time to Triage:** 2 minutes \
 
 ---
 
