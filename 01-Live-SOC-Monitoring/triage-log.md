@@ -1,43 +1,44 @@
-## Alert #1
-**Detection Time:** 2024-02-13T02:04
-**Alert Title:** VPN Connection Detected from Unauthorized Country
-**Alert Type:** Unauthorized Login
-**Severity:** Low
-**Source IP:** 113.161.158[.]12
-**Target:** 33.33.33.33
-**Hypothesis:** An external actor attempted to connect to the VPN gateway from a geolocation outside the organization's authorized access list.
-**Evidence:**
-* 113.161.158[.]12 IP address flagged as malicious.
-* Failed connection attempts to server 33.33.33.33 due to OTP authentication failure after three attempts.
-* Multiple connection attempts were detected by the firewall but did not succeed.
-**Classification:** True Positive - Malicious
-**Action Taken:** Blocked source IP 113.161.158[.]12 and closed the alert as a True Positive.
-**Time to Triage:** 2 minutes
-
+## Alert #1 </br>
+**Detection Time:** 2024-02-13T02:04 </br>
+**Alert Title:** VPN Connection Detected from Unauthorized Country </br>
+**Alert Type:** Unauthorized Login </br>
+**Severity:** Low </br>
+**Source IP:** 113.161.158[.]12 </br>
+**Target:** 33.33.33.33 </br>
+**Hypothesis:** An external actor attempted to connect to the VPN gateway from a geolocation outside the organization's authorized access list. </br>
+**Evidence:** </br>
+* 113.161.158[.]12 IP address flagged as malicious. </br>
+* Failed connection attempts to server 33.33.33.33 due to OTP authentication failure after three attempts. </br>
+* Multiple connection attempts were detected by the firewall but did not succeed.</br>
+**Classification:** True Positive - Malicious </br>
+**Action Taken:** Blocked source IP 113.161.158[.]12 and closed the alert as a True Positive. </br>
+**Time to Triage:** 2 minutes </br>
+</br>
 ---
+</br>
 
-## Alert #2
-**Detection Time:** 2024-03-07T12:51
-**Alert Title:** SQL Injection Detected
-**Alert Type:** Web Attack
-**Severity:** High
-**Source IP:** 118.194.247[.]28
-**Target:** 172.16.20.12 WebServer1000
-**Hypothesis:** It appears to be a SQL injection attack where the malicious payload was embedded inside the **douj** parameter in URL-encoded format, containing multiple SQLi payload variants (UNION-based, boolean-based, and error-based techniques) and common database exploitation keywords.
-**Evidence:**
-* 118.194.247[.]28 IP address flagged as malicious.
-* Request Decoded: `3034 AND 1=1 UNION ALL SELECT 1,NULL,'<script>alert("XSS")</script>',table_name FROM information_schema.tables WHERE 2>1--/**/; EXEC xp_cmdshell('cat ../../../etc/passwd')#`
-* Request: `1' AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND 'qQpG'='qQpG`
-* Request: `1') AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND ('FiHf'='FiHf`
-* Request: `1) AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND (9806=9806)`
-* Request: `1 AND EXTRACTVALUE(7321,CONCAT(0x5c,0x716b6b7671,(SELECT (ELT(7321=7321,1))),0x71707a6a71))`
-* Request: `(SELECT (CASE WHEN (4611=4629) THEN 1 ELSE (SELECT 4629 UNION SELECT 6288) END))`
-* Request: `1 AND 9816=9452-- bkmh`
-* Request: `1'QaEOtG<'">PRVoKd`
-* Request: `1").(,(,'.(` possibly the starting point of the attack.
-**Classification:** True Positive - Malicious
-**Action Taken:** Blocked source IP 118.194.247[.]28 and escalated the incident to Tier 2.
-**Time to Triage:** 2 minutes
+## Alert #2 </br>
+**Detection Time:** 2024-03-07T12:51 </br>
+**Alert Title:** SQL Injection Detected </br>
+**Alert Type:** Web Attack </br>
+**Severity:** High </br>
+**Source IP:** 118.194.247[.]28 </br>
+**Target:** 172.16.20.12 WebServer1000 </br>
+**Hypothesis:** It appears to be a SQL injection attack where the malicious payload was embedded inside the **douj** parameter in URL-encoded format, containing multiple SQLi payload variants (UNION-based, boolean-based, and error-based techniques) and common database exploitation keywords. </br>
+**Evidence:** </br>
+* 118.194.247[.]28 IP address flagged as malicious. </br>
+* Request Decoded: `3034 AND 1=1 UNION ALL SELECT 1,NULL,'<script>alert("XSS")</script>',table_name FROM information_schema.tables WHERE 2>1--/**/; EXEC xp_cmdshell('cat ../../../etc/passwd')#` </br>
+* Request: `1' AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND 'qQpG'='qQpG` </br>
+* Request: `1') AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND ('FiHf'='FiHf` </br>
+* Request: `1) AND 2574=CAST((CHR(113)||CHR(107)||CHR(107)||CHR(118)||CHR(113))||(SELECT (CASE WHEN (2574=2574) THEN 1 ELSE 0 END))::text||(CHR(113)||CHR(112)||CHR(122)||CHR(106)||CHR(113)) AS NUMERIC) AND (9806=9806)` </br>
+* Request: `1 AND EXTRACTVALUE(7321,CONCAT(0x5c,0x716b6b7671,(SELECT (ELT(7321=7321,1))),0x71707a6a71))` </br>
+* Request: `(SELECT (CASE WHEN (4611=4629) THEN 1 ELSE (SELECT 4629 UNION SELECT 6288) END))` </br>
+* Request: `1 AND 9816=9452-- bkmh` </br>
+* Request: `1'QaEOtG<'">PRVoKd` </br>
+* Request: `1").(,(,'.(` possibly the starting point of the attack. </br>
+**Classification:** True Positive - Malicious </br>
+**Action Taken:** Blocked source IP 118.194.247[.]28 and escalated the incident to Tier 2. </br>
+**Time to Triage:** 2 minutes </br>
 
 ---
 
