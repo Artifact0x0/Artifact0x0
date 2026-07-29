@@ -14,7 +14,6 @@
 **Action Taken:** Blocked source IP 113.161.158[.]12 and closed the alert as a True Positive. </br>
 **Time to Triage:** 2 minutes </br>
 </br>
----
 </br>
 
 ## Alert #2 </br>
@@ -44,40 +43,41 @@
 
 ## Alert #3
 
-**Detection Time:** 2024-06-06T15:12
-**Alert Title:** Arbitrary File Read on Checkpoint Security Gateway [CVE-2024-24919]
-**Alert Type:** Web Attack
-**Severity:** High
-**Source IP:** 203.160.68[.]12
-**Target:** 172.16.20.146
-**Hypothesis:** A known exploitation pattern for CVE-2024-24919 was detected. The attacker attempted to exploit the vulnerability to read sensitive files from the affected Check Point Security Gateway.
-**Evidence:**
-* 203.160.68[.]12 IP address flagged as malicious.
-* Requested URL: `172.16.20.146/clients/MyCRL`
-* Request: `aCSHELL/../../../../../../../../../../etc/shadow` returned **200 OK**.
-* Request: `aCSHELL/../../../../../../../../../../etc/passwd` returned **200 OK**.
-* Successful lateral movement was detected via internal IP 10.0.0.5 exactly 35 seconds after the exploitation. A POST request resulted in an HTTP **201 Created** response, confirming the successful upload of an unauthorized file.
-**Classification:** True Positive - Malicious
-**Action Taken:** Escalated the incident to Tier 2 and blocked source IP 203.160.68[.]12.
-**Time to Triage:** 3 minutes
+**Detection Time:** 2024-06-06T15:12 </br>
+**Alert Title:** Arbitrary File Read on Checkpoint Security Gateway [CVE-2024-24919]  </br>
+**Alert Type:** Web Attack </br>
+**Severity:** High </br>
+**Source IP:** 203.160.68[.]12 </br>
+**Target:** 172.16.20.146 </br>
+**Hypothesis:** A known exploitation pattern for CVE-2024-24919 was detected. The attacker attempted to exploit the vulnerability to read sensitive files from the affected Check Point Security Gateway. </br>
+**Evidence:** </br>
+* 203.160.68[.]12 IP address flagged as malicious. </br>
+* Requested URL: `172.16.20.146/clients/MyCRL` </br>
+* Request: `aCSHELL/../../../../../../../../../../etc/shadow` returned **200 OK**. </br>
+* Request: `aCSHELL/../../../../../../../../../../etc/passwd` returned **200 OK**. </br>
+* Successful lateral movement was detected via internal IP 10.0.0.5 exactly 35 seconds after the exploitation. A POST request resulted in an HTTP **201 Created** response, confirming the successful upload of an unauthorized file. </br>
+**Classification:** True Positive - Malicious </br>
+**Action Taken:** Escalated the incident to Tier 2 and blocked source IP 203.160.68[.]12. </br>
+**Time to Triage:** 3 minutes </br>
+</br>
 
----
+</br>
 
-## Alert #4
-**Detection Time:** 2024-03-07T11:44
-**Alert Title:** RDP Brute Force Detected
-**Alert Type:** Brute Force Attack
-**Severity:** Medium
-**Source IP:** 218.92.0[.]56
-**Target:** 172.16.17.148 Matthew Device
-**Hypothesis:** Multiple RDP brute-force attempts targeting Matthew's workstation were detected from external IP 218.92.0[.]56. Numerous failed logon attempts using different usernames were observed, followed by a successful login (Event ID 4624), indicating that the attacker likely gained access using valid credentials.
-**Evidence:**
-* 218.92.0[.]56 IP address flagged as malicious.
-* Multiple login attempts using different usernames and passwords.
-* Event ID: 4624 indicating a successful logon.
-**Classification:** True Positive - Malicious
-**Action Taken:** Isolated the affected device and escalated the incident to Tier 2.
-**Time to Triage:** 2 minutes
+## Alert #4 </br>
+**Detection Time:** 2024-03-07T11:44 </br>
+**Alert Title:** RDP Brute Force Detected </br>
+**Alert Type:** Brute Force Attack </br>
+**Severity:** Medium </br>
+**Source IP:** 218.92.0[.]56 </br>
+**Target:** 172.16.17.148 Matthew Device </br>
+**Hypothesis:** Multiple RDP brute-force attempts targeting Matthew's workstation were detected from external IP 218.92.0[.]56. Numerous failed logon attempts using different usernames were observed, followed by a successful login (Event ID 4624), indicating that the attacker likely gained access using valid credentials. </br>
+**Evidence:** </br>
+* 218.92.0[.]56 IP address flagged as malicious. </br>
+* Multiple login attempts using different usernames and passwords. </br>
+* Event ID: 4624 indicating a successful logon. </br>
+**Classification:** True Positive - Malicious </br>
+**Action Taken:** Isolated the affected device and escalated the incident to Tier 2. </br>
+**Time to Triage:** 2 minutes </br>
 
 ---
 
